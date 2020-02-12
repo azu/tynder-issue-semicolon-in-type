@@ -1,0 +1,4 @@
+export type O =  {
+    a: string;
+    b: number;
+}

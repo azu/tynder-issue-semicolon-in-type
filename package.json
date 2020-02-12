@@ -1,0 +1,31 @@
+{
+  "name": "tynder-issue-semicolon-in-type",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/azu/tynder-issue-semicolon-in-type",
+  "bugs": {
+    "url": "https://github.com/azu/tynder-issue-semicolon-in-type/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/tynder-issue-semicolon-in-type.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/tynder-issue-semicolon-in-type.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tynder compile --indir schema --outdir generated"
+  },
+  "dependencies": {
+    "tynder": "^0.1.3"
+  }
+}
